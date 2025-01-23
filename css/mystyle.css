@@ -1,0 +1,23 @@
+/* Logo styles */
+.container1 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Search box styles */
+.search {
+    flex-grow: 1;
+}
+
+.autocomplete {
+    position: relative;
+}
+
+/* Other existing styles... */ 

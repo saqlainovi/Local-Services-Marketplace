@@ -1,0 +1,183 @@
+Designing Test Case Sample for Home Service Management System
+ID: Project_2023
+
+Test Case ID: TC_001
+Created By: QA Team
+Reviewed By: Senior QA
+Version: 1.0
+Tester's Name: [Tester Name]
+Date Tested: [Current Date]
+
+1. User Registration Test Cases
+============================
+Test Scenario 1: Verify User Registration with Valid Data
+
+Prerequisites:
+- Access to registration page
+- Internet connection
+- Valid email address
+
+S#     Test Data
+1      Name = "John Doe", Phone = "01531707311", Email = "test@gmail.com", Password = "Test@123"
+2      Name = "Jane Smith", Phone = "01712345678", Email = "jane@gmail.com", Password = "Jane@123"
+3      Name = "", Phone = "", Email = "", Password = "" (Empty fields)
+4      Name = "Test", Phone = "0153", Email = "invalid-email", Password = "weak"
+
+Expected Results:
+1. Valid data: Registration successful, verification email sent
+2. Valid data: Registration successful, verification email sent
+3. Empty fields: Show appropriate validation messages
+4. Invalid data: Show appropriate error messages for each field
+
+Test Scenario 2: Email Verification Process
+
+Prerequisites:
+- Registered account
+- Access to email
+
+S#     Test Data
+1      Click verification link within 24 hours
+2      Click verification link after 24 hours
+3      Click verification link multiple times
+
+Expected Results:
+1. Account verified successfully
+2. Link expired message
+3. Already verified message
+
+2. Login System Test Cases
+=======================
+Test Scenario 1: User Login Verification
+
+Prerequisites:
+- Registered and verified account
+
+S#     Test Data
+1      Correct email and password
+2      Incorrect email
+3      Incorrect password
+4      Empty fields
+5      SQL injection attempts ('; DROP TABLE users;--)
+
+Expected Results:
+1. Successful login, redirect to dashboard
+2. Invalid credentials message
+3. Invalid credentials message
+4. Required field validation messages
+5. Invalid credentials message, no SQL injection possible
+
+3. Service Booking Test Cases
+==========================
+Test Scenario 1: Service Provider Selection
+
+Prerequisites:
+- Logged in user
+- Available service providers
+
+S#     Test Data
+1      Select Painter service
+2      Select Electrician service
+3      Select Plumber service
+4      Select TV Repair service
+
+Expected Results:
+1-4. Display list of available service providers with details
+
+Test Scenario 2: Booking Process
+
+Prerequisites:
+- Selected service provider
+- Logged in user
+
+S#     Test Data
+1      Valid booking date and time
+2      Past date selection
+3      Holiday date selection
+4      Already booked time slot
+
+Expected Results:
+1. Booking confirmed, payment page displayed
+2. Error message for invalid date
+3. Holiday notification message
+4. Time slot unavailable message
+
+4. Payment System Test Cases
+=========================
+Test Scenario 1: Payment Processing
+
+Prerequisites:
+- Confirmed booking
+- Valid payment details
+
+S#     Test Data
+1      Valid payment details
+2      Invalid card number
+3      Expired card
+4      Insufficient funds
+5      Network timeout
+
+Expected Results:
+1. Payment successful, booking confirmed
+2. Invalid card number message
+3. Card expired message
+4. Insufficient funds message
+5. Retry payment option
+
+5. Review System Test Cases
+========================
+Test Scenario 1: Service Review
+
+Prerequisites:
+- Completed service
+- Logged in user
+
+S#     Test Data
+1      5-star rating with comment
+2      1-star rating with comment
+3      Rating without comment
+4      Comment without rating
+
+Expected Results:
+1-2. Review submitted successfully
+3. Comment required message
+4. Rating required message
+
+6. Profile Management Test Cases
+============================
+Test Scenario 1: Profile Updates
+
+Prerequisites:
+- Logged in user
+
+S#     Test Data
+1      Update name and phone
+2      Update password
+3      Update with invalid data
+4      Upload profile picture
+
+Expected Results:
+1. Profile updated successfully
+2. Password changed successfully
+3. Validation error messages
+4. Picture uploaded successfully
+
+7. Security Test Cases
+===================
+Test Scenario 1: Authentication and Authorization
+
+Prerequisites:
+- Various user accounts
+
+S#     Test Data
+1      Access protected pages without login
+2      Session timeout test
+3      Cross-site scripting (XSS) attempts
+4      SQL injection attempts
+
+Expected Results:
+1. Redirect to login page
+2. Session expired message
+3. XSS prevented
+4. SQL injection prevented
+
+Note: Each test case should be executed in different browsers (Chrome, Firefox, Safari) and devices (Desktop, Mobile, Tablet) to ensure cross-platform compatibility. 

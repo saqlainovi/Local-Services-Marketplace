@@ -1,0 +1,1008 @@
+
+PS C:\laragon\www\login with email verification\local> tree /f
+Folder PATH listing
+Volume serial number is CC0F-A9D0
+C:.
+│   .env
+│   .txt
+│   @frank_5.sql
+│   About_us.php
+│   add_review.php
+│   authentication.php
+│   battery.php
+│   battery_info.php
+│   battery_service.php
+│   battery_service_info.php
+│   book_service.php
+│   carmechanic.php
+│   carmechanic_info.php
+│   check_system.php
+│   code-sending-email.php
+│   code.php
+│   composer.json
+│   composer.lock
+│   composer.phar
+│   connection.php
+│   dashboard.php
+│   Dashbord.php
+│   dbcon.php
+│   edit_profile.php
+│   electrician.php
+│   electrician_info.php
+│   FILE_DDEGINE.TXT
+│   index.php
+│   locksmith.php
+│   locksmiths.php
+│   locksmith_info.php
+│   login.php
+│   logincode.php
+│   logout.php
+│   mechanics.php
+│   mechanic_info.php
+│   mystyle.css
+│   Orders.php
+│   packers.php
+│   packers_info.php
+│   packers_movers.php
+│   packer_mover_info.php
+│   painter.php
+│   painter_details.php
+│   painter_info.php
+│   passwoord-reset-code.php
+│   password-change-code.php
+│   password-reset-code.php
+│   password_change.php
+│   password_reset.php
+│   payment.php
+│   payment_success.php
+│   plumber.php
+│   plumbers.php
+│   plumber_info.php
+│   process_booking.php
+│   process_payment.php
+│   profile.php
+│   provider
+│   register.php
+│   resend-code.php
+│   resend-email-verification.php
+│   review.php
+│   reviews.php
+│   search.php
+│   send-reset-password.php
+│   submit_review.php
+│   tvrepair.php
+│   tvrepair_info.php
+│   tv_repair.php
+│   tv_repair_info.php
+│   verify-email.php
+│   _fank (2).sql
+│   _fank (3).sql
+│   _fank (4).sql
+│
+├───admin
+│       add_provider.php
+│       dashboard.php
+│       edit_provider.php
+│       service_providers.php
+│
+├───asset
+│   ├───css
+│   │       bootstrap-theme.css
+│   │       bootstrap-theme.css.map
+│   │       bootstrap-theme.min.css
+│   │       bootstrap.css
+│   │       bootstrap.css.map
+│   │       bootstrap.min.css
+│   │
+│   ├───fonts
+│   │       glyphicons-halflings-regular.eot
+│   │       glyphicons-halflings-regular.svg
+│   │       glyphicons-halflings-regular.ttf
+│   │       glyphicons-halflings-regular.woff
+│   │
+│   └───js
+│           bootstrap.js
+│           bootstrap.min.js
+│           npm.js
+│
+├───cropped-images (1)
+│       freepik__candid-image-photography-natural-textures-highly-r__93097__2m44.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93097__3wf7.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93097__6z29.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93097__8fnv.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93097__clvO.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93097__lkw9.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93097__lv11.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93097__sp1t.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93097__z8dx.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93098__d8rc.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93098__iwl7.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93098__wzjp.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93098__xff6.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93098__xiv5.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93098__zn71.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93099__3vy1.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93099__5c6o.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93099__g5yx.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93099__t7hx.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93099__ta49.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93099__xanh.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93100__4eu5.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93100__CJuz.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93100__ck6l.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93100__fuk8.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93100__qvXF.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93100__SrND.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93100__wlpr.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93100__wp8m.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93100__zYN5.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93101__2rib.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93101__amF0.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93101__Gq5P.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93101__G_8I.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93101__k7mt.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93101__TJd1.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93101__vpgr.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93101__xnT_.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93101__zvz1.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93102__-23X.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93102__54ma.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93102__54q1.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93102__iqwy.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93102__m0qo.jpeg
+│       freepik__candid-image-photography-natural-textures-highly-r__93102__tejp.jpeg
+│
+├───css
+│   │   animate.css
+│   │   font-awesome.css
+│   │   font-awesome.min.css
+│   │   mystyle.css
+│   │   navbar.css
+│   │   owl.carousel.css
+│   │   owl.theme.css
+│   │   owl.transitions.css
+│   │   responsive.css
+│   │   style.css
+│   │
+│   └───color
+│           blue.css
+│           green.css
+│           light-blue.css
+│           light-green.css
+│           light-red.css
+│           yellow.css
+│
+├───DATABASE
+│       _fank (1).sql
+│
+├───fonts
+│       fontawesome-webfont.eot
+│       fontawesome-webfont.svg
+│       fontawesome-webfont.ttf
+│       fontawesome-webfont.woff
+│       FontAwesome.otf
+│
+├───home page desigine
+│   ├───127.0.0.1_8081
+│   │   └───dl
+│   │           url=https%3A%2F%2Fgetbootstrap.com%2Fdocs%2F4.0%2Fexamples%2Fcarousel%2F&mobile=false.php
+│   │
+│   ├───code.jquery.com
+│   │       jquery-3.2.1.slim.min.js
+│   │
+│   └───getbootstrap.com
+│       └───docs
+│           └───4.0
+│               ├───assets
+│               │   ├───img
+│               │   │   └───favicons
+│               │   │           favicon.ico
+│               │   │
+│               │   └───js
+│               │       └───vendor
+│               │               holder.min.js
+│               │               jquery-slim.min.js
+│               │               popper.min.js
+│               │
+│               ├───dist
+│               │   ├───css
+│               │   │       bootstrap.min.css
+│               │   │
+│               │   └───js
+│               │           bootstrap.min.js
+│               │
+│               └───examples
+│                   └───carousel
+│                           carousel.css
+│
+├───images
+│   │   about-01.jpg
+│   │   about-02.jpg
+│   │   about-03.jpg
+│   │   galaxy.jpg
+│   │   header-back.png
+│   │   header-bg-1.jpg
+│   │
+│   ├───logos
+│   │       aetuts.jpg
+│   │       creative-market.jpg
+│   │       designmodo.jpg
+│   │       envato.jpg
+│   │       microlancer.jpg
+│   │       themeforest.jpg
+│   │       wordpress.jpg
+│   │
+│   ├───parallax
+│   │       bg-01.jpg
+│   │       bg-02.jpg
+│   │       call-to.jpg
+│   │       contact-bg.jpg
+│   │       pricing-bg.jpg
+│   │       testimonial-bg.jpg
+│   │
+│   ├───portfolio
+│   │       img1.jpg
+│   │       img2.jpg
+│   │       img3.jpg
+│   │       img4.jpg
+│   │       img5.jpg
+│   │       img6.jpg
+│   │
+│   ├───team
+│   │       manage-1.png
+│   │       manage-2.png
+│   │       manage-3.png
+│   │       manage-4.png
+│   │
+│   └───testimonial
+│           face_1.png
+│           face_2.png
+│           face_3.png
+│           face_4.png
+│
+├───img
+│       demo.ico
+│       demo.jpg
+│       logo.png
+│
+├───includes
+│       footer.php
+│       header.php
+│       home-header.php
+│       home-navbar.php
+│       navbar.php
+│
+├───js
+│       cbpAnimatedHeader.js
+│       classie.js
+│       contact_me.js
+│       count-to.js
+│       jqBootstrapValidation.js
+│       jquery-2.1.1.min.js
+│       jquery.appear.js
+│       jquery.easing.1.3.js
+│       jquery.fitvids.js
+│       modernizr.custom.js
+│       owl.carousel.min.js
+│       script.js
+│       styleswitcher.js
+│
+├───local
+│       dashboard.php
+│
+├───mail
+│       contact_me.php
+│
+├───providernew
+│       electrician.php
+│
+└───vendor
+    │   autoload.php
+    │
+    ├───composer
+    │       autoload_classmap.php
+    │       autoload_files.php
+    │       autoload_namespaces.php
+    │       autoload_psr4.php
+    │       autoload_real.php
+    │       autoload_static.php
+    │       ClassLoader.php
+    │       installed.json
+    │       installed.php
+    │       InstalledVersions.php
+    │       LICENSE
+    │       platform_check.php
+    │
+    ├───graham-campbell
+    │   └───result-type
+    │       │   composer.json
+    │       │   LICENSE
+    │       │
+    │       └───src
+    │               Error.php
+    │               Result.php
+    │               Success.php
+    │
+    ├───phpmailer
+    │   └───phpmailer
+    │       │   .editorconfig
+    │       │   COMMITMENT
+    │       │   composer.json
+    │       │   get_oauth_token.php
+    │       │   LICENSE
+    │       │   README.md
+    │       │   SECURITY.md
+    │       │   VERSION
+    │       │
+    │       ├───language
+    │       │       phpmailer.lang-af.php
+    │       │       phpmailer.lang-ar.php
+    │       │       phpmailer.lang-as.php
+    │       │       phpmailer.lang-az.php
+    │       │       phpmailer.lang-ba.php
+    │       │       phpmailer.lang-be.php
+    │       │       phpmailer.lang-bg.php
+    │       │       phpmailer.lang-bn.php
+    │       │       phpmailer.lang-ca.php
+    │       │       phpmailer.lang-cs.php
+    │       │       phpmailer.lang-da.php
+    │       │       phpmailer.lang-de.php
+    │       │       phpmailer.lang-el.php
+    │       │       phpmailer.lang-eo.php
+    │       │       phpmailer.lang-es.php
+    │       │       phpmailer.lang-et.php
+    │       │       phpmailer.lang-fa.php
+    │       │       phpmailer.lang-fi.php
+    │       │       phpmailer.lang-fo.php
+    │       │       phpmailer.lang-fr.php
+    │       │       phpmailer.lang-gl.php
+    │       │       phpmailer.lang-he.php
+    │       │       phpmailer.lang-hi.php
+    │       │       phpmailer.lang-hr.php
+    │       │       phpmailer.lang-hu.php
+    │       │       phpmailer.lang-hy.php
+    │       │       phpmailer.lang-id.php
+    │       │       phpmailer.lang-it.php
+    │       │       phpmailer.lang-ja.php
+    │       │       phpmailer.lang-ka.php
+    │       │       phpmailer.lang-ko.php
+    │       │       phpmailer.lang-ku.php
+    │       │       phpmailer.lang-lt.php
+    │       │       phpmailer.lang-lv.php
+    │       │       phpmailer.lang-mg.php
+    │       │       phpmailer.lang-mn.php
+    │       │       phpmailer.lang-ms.php
+    │       │       phpmailer.lang-nb.php
+    │       │       phpmailer.lang-nl.php
+    │       │       phpmailer.lang-pl.php
+    │       │       phpmailer.lang-pt.php
+    │       │       phpmailer.lang-pt_br.php
+    │       │       phpmailer.lang-ro.php
+    │       │       phpmailer.lang-ru.php
+    │       │       phpmailer.lang-si.php
+    │       │       phpmailer.lang-sk.php
+    │       │       phpmailer.lang-sl.php
+    │       │       phpmailer.lang-sr.php
+    │       │       phpmailer.lang-sr_latn.php
+    │       │       phpmailer.lang-sv.php
+    │       │       phpmailer.lang-tl.php
+    │       │       phpmailer.lang-tr.php
+    │       │       phpmailer.lang-uk.php
+    │       │       phpmailer.lang-ur.php
+    │       │       phpmailer.lang-vi.php
+    │       │       phpmailer.lang-zh.php
+    │       │       phpmailer.lang-zh_cn.php
+    │       │
+    │       └───src
+    │               DSNConfigurator.php
+    │               Exception.php
+    │               OAuth.php
+    │               OAuthTokenProvider.php
+    │               PHPMailer.php
+    │               POP3.php
+    │               SMTP.php
+    │
+    ├───phpoption
+    │   └───phpoption
+    │       │   composer.json
+    │       │   LICENSE
+    │       │
+    │       └───src
+    │           └───PhpOption
+    │                   LazyOption.php
+    │                   None.php
+    │                   Option.php
+    │                   Some.php
+    │
+    ├───stripe
+    │   └───stripe-php
+    │       │   .gitignore
+    │       │   CHANGELOG.md
+    │       │   composer.json
+    │       │   init.php
+    │       │   LICENSE
+    │       │   OPENAPI_VERSION
+    │       │   README.md
+    │       │   VERSION
+    │       │
+    │       ├───data
+    │       │       ca-certificates.crt
+    │       │
+    │       └───lib
+    │           │   Account.php
+    │           │   AccountLink.php
+    │           │   AccountSession.php
+    │           │   ApiRequestor.php
+    │           │   ApiResource.php
+    │           │   ApiResponse.php
+    │           │   ApplePayDomain.php
+    │           │   Application.php
+    │           │   ApplicationFee.php
+    │           │   ApplicationFeeRefund.php
+    │           │   Balance.php
+    │           │   BalanceTransaction.php
+    │           │   BankAccount.php
+    │           │   BaseStripeClient.php
+    │           │   BaseStripeClientInterface.php
+    │           │   Capability.php
+    │           │   Card.php
+    │           │   CashBalance.php
+    │           │   Charge.php
+    │           │   Collection.php
+    │           │   ConfirmationToken.php
+    │           │   ConnectCollectionTransfer.php
+    │           │   CountrySpec.php
+    │           │   Coupon.php
+    │           │   CreditNote.php
+    │           │   CreditNoteLineItem.php
+    │           │   Customer.php
+    │           │   CustomerBalanceTransaction.php
+    │           │   CustomerCashBalanceTransaction.php
+    │           │   CustomerSession.php
+    │           │   Discount.php
+    │           │   Dispute.php
+    │           │   EphemeralKey.php
+    │           │   ErrorObject.php
+    │           │   Event.php
+    │           │   ExchangeRate.php
+    │           │   File.php
+    │           │   FileLink.php
+    │           │   FundingInstructions.php
+    │           │   Invoice.php
+    │           │   InvoiceItem.php
+    │           │   InvoiceLineItem.php
+    │           │   InvoiceRenderingTemplate.php
+    │           │   LineItem.php
+    │           │   LoginLink.php
+    │           │   Mandate.php
+    │           │   OAuth.php
+    │           │   OAuthErrorObject.php
+    │           │   PaymentIntent.php
+    │           │   PaymentLink.php
+    │           │   PaymentMethod.php
+    │           │   PaymentMethodConfiguration.php
+    │           │   PaymentMethodDomain.php
+    │           │   Payout.php
+    │           │   Person.php
+    │           │   Plan.php
+    │           │   Price.php
+    │           │   Product.php
+    │           │   ProductFeature.php
+    │           │   PromotionCode.php
+    │           │   Quote.php
+    │           │   Reason.php
+    │           │   RecipientTransfer.php
+    │           │   Refund.php
+    │           │   RelatedObject.php
+    │           │   RequestTelemetry.php
+    │           │   ReserveTransaction.php
+    │           │   Review.php
+    │           │   SearchResult.php
+    │           │   SetupAttempt.php
+    │           │   SetupIntent.php
+    │           │   ShippingRate.php
+    │           │   SingletonApiResource.php
+    │           │   Source.php
+    │           │   SourceMandateNotification.php
+    │           │   SourceTransaction.php
+    │           │   Stripe.php
+    │           │   StripeClient.php
+    │           │   StripeClientInterface.php
+    │           │   StripeObject.php
+    │           │   StripeStreamingClientInterface.php
+    │           │   Subscription.php
+    │           │   SubscriptionItem.php
+    │           │   SubscriptionSchedule.php
+    │           │   TaxCode.php
+    │           │   TaxDeductedAtSource.php
+    │           │   TaxId.php
+    │           │   TaxRate.php
+    │           │   ThinEvent.php
+    │           │   Token.php
+    │           │   Topup.php
+    │           │   Transfer.php
+    │           │   TransferReversal.php
+    │           │   UsageRecord.php
+    │           │   UsageRecordSummary.php
+    │           │   Webhook.php
+    │           │   WebhookEndpoint.php
+    │           │   WebhookSignature.php
+    │           │
+    │           ├───ApiOperations
+    │           │       All.php
+    │           │       Create.php
+    │           │       Delete.php
+    │           │       NestedResource.php
+    │           │       Request.php
+    │           │       Retrieve.php
+    │           │       Search.php
+    │           │       SingletonRetrieve.php
+    │           │       Update.php
+    │           │
+    │           ├───Apps
+    │           │       Secret.php
+    │           │
+    │           ├───Billing
+    │           │       Alert.php
+    │           │       AlertTriggered.php
+    │           │       CreditBalanceSummary.php
+    │           │       CreditBalanceTransaction.php
+    │           │       CreditGrant.php
+    │           │       Meter.php
+    │           │       MeterEvent.php
+    │           │       MeterEventAdjustment.php
+    │           │       MeterEventSummary.php
+    │           │
+    │           ├───BillingPortal
+    │           │       Configuration.php
+    │           │       Session.php
+    │           │
+    │           ├───Checkout
+    │           │       Session.php
+    │           │
+    │           ├───Climate
+    │           │       Order.php
+    │           │       Product.php
+    │           │       Supplier.php
+    │           │
+    │           ├───Entitlements
+    │           │       ActiveEntitlement.php
+    │           │       ActiveEntitlementSummary.php
+    │           │       Feature.php
+    │           │
+    │           ├───EventData
+    │           │       V1BillingMeterErrorReportTriggeredEventData.php
+    │           │       V1BillingMeterNoMeterFoundEventData.php
+    │           │
+    │           ├───Events
+    │           │       V1BillingMeterErrorReportTriggeredEvent.php
+    │           │       V1BillingMeterNoMeterFoundEvent.php
+    │           │
+    │           ├───Exception
+    │           │   │   ApiConnectionException.php
+    │           │   │   ApiErrorException.php
+    │           │   │   AuthenticationException.php
+    │           │   │   BadMethodCallException.php
+    │           │   │   CardException.php
+    │           │   │   ExceptionInterface.php
+    │           │   │   IdempotencyException.php
+    │           │   │   InvalidArgumentException.php
+    │           │   │   InvalidRequestException.php
+    │           │   │   PermissionException.php
+    │           │   │   RateLimitException.php
+    │           │   │   SignatureVerificationException.php
+    │           │   │   TemporarySessionExpiredException.php
+    │           │   │   UnexpectedValueException.php
+    │           │   │   UnknownApiErrorException.php
+    │           │   │
+    │           │   └───OAuth
+    │           │           ExceptionInterface.php
+    │           │           InvalidClientException.php
+    │           │           InvalidGrantException.php
+    │           │           InvalidRequestException.php
+    │           │           InvalidScopeException.php
+    │           │           OAuthErrorException.php
+    │           │           UnknownOAuthErrorException.php
+    │           │           UnsupportedGrantTypeException.php
+    │           │           UnsupportedResponseTypeException.php
+    │           │
+    │           ├───FinancialConnections
+    │           │       Account.php
+    │           │       AccountOwner.php
+    │           │       AccountOwnership.php
+    │           │       Session.php
+    │           │       Transaction.php
+    │           │
+    │           ├───Forwarding
+    │           │       Request.php
+    │           │
+    │           ├───HttpClient
+    │           │       ClientInterface.php
+    │           │       CurlClient.php
+    │           │       StreamingClientInterface.php
+    │           │
+    │           ├───Identity
+    │           │       VerificationReport.php
+    │           │       VerificationSession.php
+    │           │
+    │           ├───Issuing
+    │           │       Authorization.php
+    │           │       Card.php
+    │           │       CardDetails.php
+    │           │       Cardholder.php
+    │           │       Dispute.php
+    │           │       PersonalizationDesign.php
+    │           │       PhysicalBundle.php
+    │           │       Token.php
+    │           │       Transaction.php
+    │           │
+    │           ├───Radar
+    │           │       EarlyFraudWarning.php
+    │           │       ValueList.php
+    │           │       ValueListItem.php
+    │           │
+    │           ├───Reporting
+    │           │       ReportRun.php
+    │           │       ReportType.php
+    │           │
+    │           ├───Service
+    │           │   │   AbstractService.php
+    │           │   │   AbstractServiceFactory.php
+    │           │   │   AccountLinkService.php
+    │           │   │   AccountService.php
+    │           │   │   AccountSessionService.php
+    │           │   │   ApplePayDomainService.php
+    │           │   │   ApplicationFeeService.php
+    │           │   │   BalanceService.php
+    │           │   │   BalanceTransactionService.php
+    │           │   │   ChargeService.php
+    │           │   │   ConfirmationTokenService.php
+    │           │   │   CoreServiceFactory.php
+    │           │   │   CountrySpecService.php
+    │           │   │   CouponService.php
+    │           │   │   CreditNoteService.php
+    │           │   │   CustomerService.php
+    │           │   │   CustomerSessionService.php
+    │           │   │   DisputeService.php
+    │           │   │   EphemeralKeyService.php
+    │           │   │   EventService.php
+    │           │   │   ExchangeRateService.php
+    │           │   │   FileLinkService.php
+    │           │   │   FileService.php
+    │           │   │   InvoiceItemService.php
+    │           │   │   InvoiceRenderingTemplateService.php
+    │           │   │   InvoiceService.php
+    │           │   │   MandateService.php
+    │           │   │   OAuthService.php
+    │           │   │   PaymentIntentService.php
+    │           │   │   PaymentLinkService.php
+    │           │   │   PaymentMethodConfigurationService.php
+    │           │   │   PaymentMethodDomainService.php
+    │           │   │   PaymentMethodService.php
+    │           │   │   PayoutService.php
+    │           │   │   PlanService.php
+    │           │   │   PriceService.php
+    │           │   │   ProductService.php
+    │           │   │   PromotionCodeService.php
+    │           │   │   QuoteService.php
+    │           │   │   RefundService.php
+    │           │   │   ReviewService.php
+    │           │   │   ServiceNavigatorTrait.php
+    │           │   │   SetupAttemptService.php
+    │           │   │   SetupIntentService.php
+    │           │   │   ShippingRateService.php
+    │           │   │   SourceService.php
+    │           │   │   SubscriptionItemService.php
+    │           │   │   SubscriptionScheduleService.php
+    │           │   │   SubscriptionService.php
+    │           │   │   TaxCodeService.php
+    │           │   │   TaxIdService.php
+    │           │   │   TaxRateService.php
+    │           │   │   TokenService.php
+    │           │   │   TopupService.php
+    │           │   │   TransferService.php
+    │           │   │   WebhookEndpointService.php
+    │           │   │
+    │           │   ├───Apps
+    │           │   │       AppsServiceFactory.php
+    │           │   │       SecretService.php
+    │           │   │
+    │           │   ├───Billing
+    │           │   │       AlertService.php
+    │           │   │       BillingServiceFactory.php
+    │           │   │       CreditBalanceSummaryService.php
+    │           │   │       CreditBalanceTransactionService.php
+    │           │   │       CreditGrantService.php
+    │           │   │       MeterEventAdjustmentService.php
+    │           │   │       MeterEventService.php
+    │           │   │       MeterService.php
+    │           │   │
+    │           │   ├───BillingPortal
+    │           │   │       BillingPortalServiceFactory.php
+    │           │   │       ConfigurationService.php
+    │           │   │       SessionService.php
+    │           │   │
+    │           │   ├───Checkout
+    │           │   │       CheckoutServiceFactory.php
+    │           │   │       SessionService.php
+    │           │   │
+    │           │   ├───Climate
+    │           │   │       ClimateServiceFactory.php
+    │           │   │       OrderService.php
+    │           │   │       ProductService.php
+    │           │   │       SupplierService.php
+    │           │   │
+    │           │   ├───Entitlements
+    │           │   │       ActiveEntitlementService.php
+    │           │   │       EntitlementsServiceFactory.php
+    │           │   │       FeatureService.php
+    │           │   │
+    │           │   ├───FinancialConnections
+    │           │   │       AccountService.php
+    │           │   │       FinancialConnectionsServiceFactory.php
+    │           │   │       SessionService.php
+    │           │   │       TransactionService.php
+    │           │   │
+    │           │   ├───Forwarding
+    │           │   │       ForwardingServiceFactory.php
+    │           │   │       RequestService.php
+    │           │   │
+    │           │   ├───Identity
+    │           │   │       IdentityServiceFactory.php
+    │           │   │       VerificationReportService.php
+    │           │   │       VerificationSessionService.php
+    │           │   │
+    │           │   ├───Issuing
+    │           │   │       AuthorizationService.php
+    │           │   │       CardholderService.php
+    │           │   │       CardService.php
+    │           │   │       DisputeService.php
+    │           │   │       IssuingServiceFactory.php
+    │           │   │       PersonalizationDesignService.php
+    │           │   │       PhysicalBundleService.php
+    │           │   │       TokenService.php
+    │           │   │       TransactionService.php
+    │           │   │
+    │           │   ├───Radar
+    │           │   │       EarlyFraudWarningService.php
+    │           │   │       RadarServiceFactory.php
+    │           │   │       ValueListItemService.php
+    │           │   │       ValueListService.php
+    │           │   │
+    │           │   ├───Reporting
+    │           │   │       ReportingServiceFactory.php
+    │           │   │       ReportRunService.php
+    │           │   │       ReportTypeService.php
+    │           │   │
+    │           │   ├───Sigma
+    │           │   │       ScheduledQueryRunService.php
+    │           │   │       SigmaServiceFactory.php
+    │           │   │
+    │           │   ├───Tax
+    │           │   │       CalculationService.php
+    │           │   │       RegistrationService.php
+    │           │   │       SettingsService.php
+    │           │   │       TaxServiceFactory.php
+    │           │   │       TransactionService.php
+    │           │   │
+    │           │   ├───Terminal
+    │           │   │       ConfigurationService.php
+    │           │   │       ConnectionTokenService.php
+    │           │   │       LocationService.php
+    │           │   │       ReaderService.php
+    │           │   │       TerminalServiceFactory.php
+    │           │   │
+    │           │   ├───TestHelpers
+    │           │   │   │   ConfirmationTokenService.php
+    │           │   │   │   CustomerService.php
+    │           │   │   │   RefundService.php
+    │           │   │   │   TestClockService.php
+    │           │   │   │   TestHelpersServiceFactory.php
+    │           │   │   │
+    │           │   │   ├───Issuing
+    │           │   │   │       AuthorizationService.php
+    │           │   │   │       CardService.php
+    │           │   │   │       IssuingServiceFactory.php
+    │           │   │   │       PersonalizationDesignService.php
+    │           │   │   │       TransactionService.php
+    │           │   │   │
+    │           │   │   ├───Terminal
+    │           │   │   │       ReaderService.php
+    │           │   │   │       TerminalServiceFactory.php
+    │           │   │   │
+    │           │   │   └───Treasury
+    │           │   │           InboundTransferService.php
+    │           │   │           OutboundPaymentService.php
+    │           │   │           OutboundTransferService.php
+    │           │   │           ReceivedCreditService.php
+    │           │   │           ReceivedDebitService.php
+    │           │   │           TreasuryServiceFactory.php
+    │           │   │
+    │           │   ├───Treasury
+    │           │   │       CreditReversalService.php
+    │           │   │       DebitReversalService.php
+    │           │   │       FinancialAccountService.php
+    │           │   │       InboundTransferService.php
+    │           │   │       OutboundPaymentService.php
+    │           │   │       OutboundTransferService.php
+    │           │   │       ReceivedCreditService.php
+    │           │   │       ReceivedDebitService.php
+    │           │   │       TransactionEntryService.php
+    │           │   │       TransactionService.php
+    │           │   │       TreasuryServiceFactory.php
+    │           │   │
+    │           │   └───V2
+    │           │       │   V2ServiceFactory.php
+    │           │       │
+    │           │       ├───Billing
+    │           │       │       BillingServiceFactory.php
+    │           │       │       MeterEventAdjustmentService.php
+    │           │       │       MeterEventService.php
+    │           │       │       MeterEventSessionService.php
+    │           │       │       MeterEventStreamService.php
+    │           │       │
+    │           │       └───Core
+    │           │               CoreServiceFactory.php
+    │           │               EventDestinationService.php
+    │           │               EventService.php
+    │           │
+    │           ├───Sigma
+    │           │       ScheduledQueryRun.php
+    │           │
+    │           ├───Tax
+    │           │       Calculation.php
+    │           │       CalculationLineItem.php
+    │           │       Registration.php
+    │           │       Settings.php
+    │           │       Transaction.php
+    │           │       TransactionLineItem.php
+    │           │
+    │           ├───Terminal
+    │           │       Configuration.php
+    │           │       ConnectionToken.php
+    │           │       Location.php
+    │           │       Reader.php
+    │           │
+    │           ├───TestHelpers
+    │           │       TestClock.php
+    │           │
+    │           ├───Treasury
+    │           │       CreditReversal.php
+    │           │       DebitReversal.php
+    │           │       FinancialAccount.php
+    │           │       FinancialAccountFeatures.php
+    │           │       InboundTransfer.php
+    │           │       OutboundPayment.php
+    │           │       OutboundTransfer.php
+    │           │       ReceivedCredit.php
+    │           │       ReceivedDebit.php
+    │           │       Transaction.php
+    │           │       TransactionEntry.php
+    │           │
+    │           ├───Util
+    │           │       ApiVersion.php
+    │           │       CaseInsensitiveArray.php
+    │           │       DefaultLogger.php
+    │           │       EventTypes.php
+    │           │       LoggerInterface.php
+    │           │       ObjectTypes.php
+    │           │       RandomGenerator.php
+    │           │       RequestOptions.php
+    │           │       Set.php
+    │           │       Util.php
+    │           │
+    │           └───V2
+    │               │   Collection.php
+    │               │   Event.php
+    │               │   EventDestination.php
+    │               │
+    │               └───Billing
+    │                       MeterEvent.php
+    │                       MeterEventAdjustment.php
+    │                       MeterEventSession.php
+    │
+    ├───symfony
+    │   ├───polyfill-ctype
+    │   │       bootstrap.php
+    │   │       bootstrap80.php
+    │   │       composer.json
+    │   │       Ctype.php
+    │   │       LICENSE
+    │   │       README.md
+    │   │
+    │   ├───polyfill-mbstring
+    │   │   │   bootstrap.php
+    │   │   │   bootstrap80.php
+    │   │   │   composer.json
+    │   │   │   LICENSE
+    │   │   │   Mbstring.php
+    │   │   │   README.md
+    │   │   │
+    │   │   └───Resources
+    │   │       └───unidata
+    │   │               caseFolding.php
+    │   │               lowerCase.php
+    │   │               titleCaseRegexp.php
+    │   │               upperCase.php
+    │   │
+    │   └───polyfill-php80
+    │       │   bootstrap.php
+    │       │   composer.json
+    │       │   LICENSE
+    │       │   Php80.php
+    │       │   PhpToken.php
+    │       │   README.md
+    │       │
+    │       └───Resources
+    │           └───stubs
+    │                   Attribute.php
+    │                   PhpToken.php
+    │                   Stringable.php
+    │                   UnhandledMatchError.php
+    │                   ValueError.php
+    │
+    └───vlucas
+        └───phpdotenv
+            │   composer.json
+            │   LICENSE
+            │
+            └───src
+                │   Dotenv.php
+                │   Validator.php
+                │
+                ├───Exception
+                │       ExceptionInterface.php
+                │       InvalidEncodingException.php
+                │       InvalidFileException.php
+                │       InvalidPathException.php
+                │       ValidationException.php
+                │
+                ├───Loader
+                │       Loader.php
+                │       LoaderInterface.php
+                │       Resolver.php
+                │
+                ├───Parser
+                │       Entry.php
+                │       EntryParser.php
+                │       Lexer.php
+                │       Lines.php
+                │       Parser.php
+                │       ParserInterface.php
+                │       Value.php
+                │
+                ├───Repository
+                │   │   AdapterRepository.php
+                │   │   RepositoryBuilder.php
+                │   │   RepositoryInterface.php
+                │   │
+                │   └───Adapter
+                │           AdapterInterface.php
+                │           ApacheAdapter.php
+                │           ArrayAdapter.php
+                │           EnvConstAdapter.php
+                │           GuardedWriter.php
+                │           ImmutableWriter.php
+                │           MultiReader.php
+                │           MultiWriter.php
+                │           PutenvAdapter.php
+                │           ReaderInterface.php
+                │           ReplacingWriter.php
+                │           ServerConstAdapter.php
+                │           WriterInterface.php
+                │
+                ├───Store
+                │   │   FileStore.php
+                │   │   StoreBuilder.php
+                │   │   StoreInterface.php
+                │   │   StringStore.php
+                │   │
+                │   └───File
+                │           Paths.php
+                │           Reader.php
+                │
+                └───Util
+                        Regex.php
+                        Str.php
+
+PS C:\laragon\www\login with email verification\local>

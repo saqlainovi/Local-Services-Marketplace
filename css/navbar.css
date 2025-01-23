@@ -1,0 +1,43 @@
+/* Navbar links and buttons */
+.navbar .nav-link {
+    color: white !important;
+}
+
+/* Dropdown toggle button */
+.navbar .dropdown-toggle {
+    color: white !important;
+}
+
+/* Dropdown menu */
+.navbar .dropdown-menu {
+    background-color: #212529;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Dropdown items */
+.navbar .dropdown-item {
+    color: white !important;
+}
+
+/* Dropdown item hover */
+.navbar .dropdown-item:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white !important;
+}
+
+/* Dropdown divider */
+.navbar .dropdown-divider {
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Active state */
+.navbar .nav-link.active,
+.navbar .dropdown-item.active {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Hover effects */
+.navbar .nav-link:hover {
+    color: rgba(255,255,255,0.8) !important;
+} 
